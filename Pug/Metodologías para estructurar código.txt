@@ -1,0 +1,9 @@
+¿que son las Metodologías para estructurar código?
+
+son sistemas preestalecidos formales y bien documentados.que te ayudaran a escribir y organizar codigo mantenible y escalable
+
+Ventajes:
+
+-evitar redundancias al momentos de  crear componentes
+-evitar el mal uso de propiedades como el caso de !important que no debemos de utilizar mucho
+-solucionar problemas de maneja en sistemas grandes y complejas

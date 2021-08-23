@@ -1,0 +1,22 @@
+//- variables,funciones,etc son lo primero que iran
+-var titulo = "Titulo Principal En un Arreglo "
+-var titulos = ["Titulo Principal","Subtitulo1","Subtitulo2","Subtitulo3"]
+doctype html 
+html 
+	head 
+		meta(charset="UTF-8")
+		link(rel="stylesheet",href="css/ejercicio-pug.css")
+	body 
+		header 
+			h1 platzigames 
+			a.boton registro
+		section.intro 
+			.intro__imagen: img(src="images/imagen.png")
+			.intro__contenido 
+				h2 #{titulos[0]}
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cupiditate fugiat eligendi corporis natus dicta eaque veniam nesciunt nemo id. Beatae adipisci, at quia ducimus vero temporibus 
+				span dignissimos provident asperiores!
+				a.boton Leer mas
+		ul
+			each titulos   in contador 
+				li = contador 

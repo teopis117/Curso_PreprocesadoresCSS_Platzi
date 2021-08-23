@@ -1,0 +1,12 @@
+¿que es un preprocesador?
+es una herramienta que nos permite extender el poder de css y html
+
+Variable= pedazo de memoria reservado para almacenar un valor
+
+funcion= tienen la posibilidad de tener parametros y argumentos
+
+Mixin= es una clase cuya finalidad es ofrecer una funcionalidad que pueda ser reutilazada en otras clases pero que no este pensada para usarse de forma autonoma
+
+ --te salva el tiempo y dinero al rehusar el codigo
+ --tener un codigo mas sensillo y de mantener y editar
+ -tu codigo Css es una verdadera pesadilla

@@ -1,0 +1,30 @@
+BEM bloques,elementos y modificadores
+
+es una Metodología de trabajo creada para proyectos web grandes o pequeños,el objetivo de bem es dividir logicamente las piezas de las que se componen una web
+
+Bloque: 
+los bloques son modulos que no dependen de otra parte de la pagina ,son bloques individuales que no dependen de nadie mas .ejemplo: header o barra de navegacion
+
+Elementos: 
+son todas las partes que componene a un bloques .ejemplo: botones,logos
+
+Modificador:
+Los modificadores se usan para establecer estilos diferentes a un mismo bloque o elemento.
+
+SINTAXIS!
+
+.bloque{}
+.bloque__elemetno{}
+.bloque--modificador{}
+.bloque__elemento--modificador{}
+
+.galeria{}
+.galeria__foto
+.galeria__foto--circular{}
+.galeria__titulo
+.galeria__descripcion
+
+Ventajas de BEM:
+-menos repeticiones de codigo
+-independecia absoluta
+-mejoría en la herencia multiple

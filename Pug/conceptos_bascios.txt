@@ -1,0 +1,78 @@
+Introduccion a CSS
+
+css Cascading Style Sheets hojas de estilo en cascada
+css es todo el aspecto que tendra nuestra pagina web, en otras palabras tendra la funcion de hacerlo ver bonito
+
+Selectores de css
+selector universal= es aqul que le da estilos a toda la pagina
+
+lo de abajo es el reseteo de los archivos
+*
+{
+    margin:0;
+    padding:0;
+}
+
+selector de etiqueta
+
+p
+{
+
+}
+
+h1{
+
+}
+
+Selector aninado = para aplicarlo es que un elemento debe de estar en otro y aplicar especifiquidad para poder utilizarlo
+
+h1 span 
+{
+
+}
+
+div .titulo
+{
+
+}
+
+
+selector de ID = es el selector con mas especifico ya que a muy pocos elementos le agregaremos al id por lo general solo a 1
+
+#titulo
+{
+
+}
+
+#formulario
+{
+
+}
+
+Selector de Hijos: es un selector tambien muy especifico ya que escogera a los elementos de algun contenedor padre
+
+p>span
+
+Selector Adyacente
+significa que  deben de cumplir esa regla
+h2+h2
+{
+    color:blue;
+}
+
+
+Selector de atributos = se utiliza por lo general con formularios
+
+input[type="number"]
+{
+
+}
+
+¿como determinar la prioridad de una regla css?
+
+id=100
+clase=10
+etiqueta=1
+
+!important=100000
+es el selector que tiene mas valor y solo se utiliza cuando no tenemos acceso al codigo fuente

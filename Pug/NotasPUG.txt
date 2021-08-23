@@ -1,0 +1,40 @@
+"HAY muchas cosas que estoy aprendiendo a lo largo de los preprocesadores y estan muy interesantes para empezar para poder anexar un elemento dentro de otro utilizamos identaciones o espacios
+
+OJO!! no podemos utilizar espacios y tabulaciones al mismo tiempo"
+____________________________________________________
+
+head 
+		meta(charset="UTF-8")
+		link(rel="stylesheet",href="css/ejercicio-pug.css")
+
+
+<head> 
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/ejercicio-pug.css"/>
+  </head>
+
+  "dependiendo las identaciones seran las veces  que crearemos un hijo para los contenedores"
+  ___________________________________________________
+ "variables,funciones,etc son lo primero que iran"
+
+ -var titulo = "Titulo Principal En un Arreglo "
+-var titulos = ["Titulo Principal","Subtitulo1",
+
+"y tambien encontramos arreglos dentro de pug y de esta manera podemos acceder a estas"
+
+h2 #{titulos[0]} 
+
+"accedimos al elemento en la posicion 0 del arreglo llamado titulo"
+-----------------------------------------------------
+"de esta manera podemos acceder a los atributos"
+
+img(src="images/imagen.png"
+
+"y de esta manera darle las clases a los elementos"
+
+a.boton
+
+______________________________________________________
+Condiciones y loops en preprocesadores
+
+loop es algo que nos permite correr determinado codigo hata que cierta condicion de termine

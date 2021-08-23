@@ -1,0 +1,7 @@
+"tener un codigo que luzca como si una sola persona lo haya escrito"
+
+Recomendaciones
+-ser consistentes con la identacion
+-consistencia con espacios de corchetes,puntos y comas
+-agrupaciones de propiedades
+-uso de id's y clases
